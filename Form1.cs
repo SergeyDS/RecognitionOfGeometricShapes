@@ -54,6 +54,7 @@ namespace RecognitionOfGeometricShapes
 
         private void найтиФигурыToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //88
             Image<Gray, byte> grayImage = inputImage.SmoothGaussian(5).Convert<Gray,byte>().ThresholdBinaryInv(new Gray(230),new Gray(255));
             VectorOfVectorOfPoint conturs = new VectorOfVectorOfPoint();
 
