@@ -21,7 +21,7 @@ namespace RecognitionOfGeometricShapes
     
     public partial class Form1 : Form
     {
-        // Распознаем геометрические фигуры на фото
+        // Распознаем геометрические фигуры 
         private Image<Bgr, byte> inputImage = null;
         public Form1()
         {
